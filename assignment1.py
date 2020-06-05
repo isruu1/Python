@@ -24,13 +24,14 @@
 # print((num1 + num2 + num3 + num4 + num5)/5)
 
 #question 5
+# import datetime
 # name = input("what is your name:")
-# time = float(input("Enter the time in 24 hour format:"))
-# if time>5 and time<12:
+# x = datetime.datetime.now()
+# if 5 < x.hour < 12:
 #     print("Good morning",name)
-# elif time>12 and time < 18:
+# elif 12<= x.hour <= 18:
 #     print("Good afternoon",name)
-# elif time>18 and time<23:
+# elif 18 < x.hour < 23:
 #     print("Good Evening",name)
 # else:
 #     print("Good Night",name)
